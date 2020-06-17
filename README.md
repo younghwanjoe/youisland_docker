@@ -8,15 +8,13 @@
 
 ### step 2: .env 파일 작성
     
-    TAG=6.0
-    #docker id씀
-    DOCKERID=hhgman
+    TAG=
+    DOCKERID=
     #google cloud를 위한 값
-    googleCloudProjectId=translate-1589371627301
+    googleCloudProjectId=
     # step 1에서 다운받은 json파일의 
     # 파일명(e.g .google_cloud.json)
-    googleCloudKeyFilename=./.google_cloud.json
-
+    googleCloudKeyFilename=
 
 ### step 3 docker-compose를 실행: 
     다음 명령어를 입력한다.
